@@ -1,7 +1,6 @@
 // Write your code here!
-const mainElement= document.getElementById("main");
-mainElement.remove();
-
+const element = document.getElementById("main");
+element.remove();
 const newHeader = document.createElement("h1");
-newHeader.setAttribute("id", "victory");
-newHeader.textContent="Ripika is the champion ";
+newHeader.id="victory";
+newHeader.textContent= "RIPIKA is the champion";
